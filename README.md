@@ -25,15 +25,29 @@ _Exploratory Data Analysis_
 
 1. Correlation matrix enabled us to know the correlation between different variables. Here, as we observed that ‘Total Charges’ has a strong positive correlation with other independent variables ‘Monthly Charges’ and ‘Tenure’, we removed Total Charges from our model.  
 
+![](ML_Images/Correlation_Matrix.png)  
+
 2. Histogram of Tenure of the customers who churned away and who continued showed that the customers with shirter tenure are more likely to churn.  
+
+![](ML_Images/Tenure.png)  
 
 3. Similarly, histogram of Monthly Charges showed that customer who continued the services had lower monthly charges.  
 
+![](ML_Images/Monthly_Charges.png)  
+
 4. We were able to capture the association between churn rates and monthly charges effectively using a Kernel Density Estimation (KDE) plot.  
+
+![](ML_Images/Monthly_Charges_KDE.png)  
 
 5. Gender and subscription to Phone Service didn’t have a strong association with Churn rates.  
 
+![](ML_Images/Gender_Phone.png)  
+
 6. On the other hand, seniority, contract-length, and mainly internet service type had strong association with churn rate.  
+
+![](ML_Images/Contract_Seniority.png)  
+
+![](ML_Images/Fiber_Optic.png)  
 
 It can be observed in the box plot that the Fiber Optic internet service are more expensive than the DSL internet services.  
 
@@ -43,9 +57,15 @@ _Machine Learning Models and Model Selection_
 
 **ROC Curve**  
 
+![](ML_Images/Logistic_ROC.png)  
+
 **Confusion Matrix and Classification Report**  
 
+![](ML_Images/Logistic_Report.png)  
+
 **Variable Importance**  
+
+![](ML_Images/Logistic_Variable_Importance.png)  
 
 The weights of the variables in the variable importance chart aligns with our exploratory analysis.  
 - Fiber optic internet service is strongly associated with higher churn rates.  
@@ -57,26 +77,38 @@ The weights of the variables in the variable importance chart aligns with our ex
 
 **ROC Curve**  
 
+![](ML_Images/Decision_ROC.png)  
+
 **Confusion Matrix and Classification Report**  
+
+![](ML_Images/Decision_Report.png)  
 
 3. Random Forest  
 
 **ROC Curve**  
 
+![](ML_Images/.png)  
+
 **Confusion Matrix and Classification Report**  
+
+![](ML_Images/Decision_Report.png)  
 
 4. KNN  
 
 **Accuracy for different number of neighbors**  
 
+![](ML_Images/KNN_n_Selection.png)  
+
 **ROC Curve:** As the accuracy on test data is the best in case of n=8, we have used n=8 in our model  
+
+![](ML_Images/KNN_ROC.png)  
 
 **Confusion Matrix and Classification Report**  
 
+![](ML_Images/KNN_Report.png)  
+
 ###### Comparison of all the models  
 
+![](ML_Images/Model_Comparison.png)  
+
 As mentioned earlier, we will need to focus not only on the accuracy of the model, but also on other metrics such as sensitivity and specificity (whichever is the worst case scenario). Finally, the sensitivity and specificity also depends on the proportion of the negative and the positive instances in the training dataset; model tends to become bias towards the instance (Yes or No / 1 or 0) that occur more frequently – an issue that we will encounter again in our natural language processing exercise.  
-
-
-
-
