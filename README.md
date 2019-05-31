@@ -4,7 +4,7 @@
 
 Exploratory analysis provided an initial view of the variables (such as fiber optic service and the seniority of citizens) that are associated with high churn rates. The variable importance according to our first model – logistic regression – highlighted not only the variables that are positively related but also those that have a weak (gender and partner) or a negative relation (longer tenures, longer contracts, and tech support) with churn.  
 
-For the model selection, it is important to look beyond the overall accuracy of the models. The selection process is driven by the worst case scenario, which is not being able to identify the customer who can churn. Hence, sensitivity (ability to identify true positives) is more important than the overall accuracy of the model.  
+For model selection, it is important to look beyond the overall accuracy of the models. The selection process is driven by the worst case scenario, which is not being able to identify the customer who can churn. Hence, sensitivity (ability to identify true positives) is more important than the overall accuracy of the model.  
 
 This approach becomes even more important in the datasets with very low instances of churn: in such cases, the model can achieve accuracy by accurately predicting the customers who would not churn but can have poor performance in identifying true positives.  
 
