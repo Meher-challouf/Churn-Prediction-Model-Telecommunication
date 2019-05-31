@@ -55,15 +55,15 @@ _Machine Learning Models and Model Selection_
 
 1. Logistic Regression
 
-**ROC Curve**  
+###### ROC Curve  
 
 ![](ML_Images/Logistic_ROC.png)  
 
-**Confusion Matrix and Classification Report**  
+###### Confusion Matrix and Classification Report  
 
 ![](ML_Images/Logistic_Report.png)  
 
-**Variable Importance**  
+###### Variable Importance  
 
 ![](ML_Images/Logistic_Variable_Importance.png)  
 
@@ -75,39 +75,40 @@ The weights of the variables in the variable importance chart aligns with our ex
 
 2. Decision Tree  
 
-**ROC Curve**  
+###### ROC Curve  
 
 ![](ML_Images/Decision_ROC.png)  
 
-**Confusion Matrix and Classification Report**  
+###### Confusion Matrix and Classification Report  
 
 ![](ML_Images/Decision_Report.png)  
 
 3. Random Forest  
 
-**ROC Curve**  
+###### ROC Curve  
 
 ![](ML_Images/.png)  
 
-**Confusion Matrix and Classification Report**  
+###### Confusion Matrix and Classification Report  
 
 ![](ML_Images/Decision_Report.png)  
 
 4. KNN  
 
-**Accuracy for different number of neighbors**  
+###### Accuracy for different number of neighbors  
 
 ![](ML_Images/KNN_n_Selection.png)  
 
-**ROC Curve:** As the accuracy on test data is the best in case of n=8, we have used n=8 in our model  
+###### ROC Curve: ######
+As the accuracy on test data is the best in case of n=8, we have used n=8 in our model  
 
 ![](ML_Images/KNN_ROC.png)  
 
-**Confusion Matrix and Classification Report**  
+###### Confusion Matrix and Classification Report  
 
 ![](ML_Images/KNN_Report.png)  
 
-###### Comparison of all the models  
+**Comparison of all the models**  
 
 ![](ML_Images/Model_Comparison.png)  
 
